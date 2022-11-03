@@ -1,0 +1,95 @@
+.body{
+   background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav ul li{
+    background-color: aqua;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+
+/* columnas del grid */
+
+.texto1{
+    grid-area: enc;
+}
+.imagen2{
+    grid-area: img1;
+}
+.imagen3{
+    grid-area: img2;
+}
+.imagen3{
+    grid-area: img3;
+}
+
+.gallery{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1 fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    grid-template-areas:
+    "enc enc enc" 
+    "img1 img2 img3";
+}
+
+.description{
+    display: flex;
+    background-color: gray;
+    margin: 5%;
+    padding: 2%;
+}
+.pvideo{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.navFooter{
+    background-color: gray;
+}
+div header h1{
+        color: blue;
+        font-style: italic;
+        font-size: 100px;
+}
+
+
+/* SECCION CONTACTO */
+.bodyc{
+    background-color: gray;
+}
+.navc{
+    font-size: 25px;
+}
+
+
+/* SECCION PROYECTOS EJECUTADOS */
+.bodyp{
+    background-color: gray;
+}
+
+
+/* SECCION QUIENES SOMOS */
+.bodyq{
+    background-color: gray;
+}
