@@ -1,0 +1,44 @@
+h1 {
+  color: white;
+  background-color: rgb(91, 152, 223);
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.navFooter {
+  background-color: rgb(145, 145, 145);
+}
+
+.pfooter {
+  color: white;
+}
+
+.descripcion {
+  text-align: center;
+}
+
+.back1 {
+  background-color: rgb(135, 164, 206);
+}
+
+.back2 {
+  background-color: rgb(186, 200, 238);
+}
+
+.back3 {
+  background-color: rgb(227, 225, 238);
+}
+
+.header {
+  color: #36A0FF;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
+}/*# sourceMappingURL=style.css.map */
